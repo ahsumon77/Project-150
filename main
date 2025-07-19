@@ -370,5 +370,482 @@ iLine(arrow_x + 1650, arrow_y + string_y + 820, arrow_x + 1650, arrow_y + 1000);
    iLine(bird_x + 210, bird_y + 895, bird_x + 215, bird_y + 882);
 
    iLine(bird_x + 210, bird_y + 895, bird_x + 213, bird_y + 905);
+iLine(bird_x + 213, bird_y + 905, bird_x + 210, bird_y + 915);
 
+   iLine(bird_x + 210, bird_y + 915, bird_x + 200, bird_y + 922);
+
+   iLine(bird_x + 200, bird_y + 922, bird_x + 185, bird_y + 924);
+
+   iLine(bird_x + 185, bird_y + 924, bird_x + 165, bird_y + 915);
+
+   iLine(bird_x + 205, bird_y + 885, bird_x + 195, bird_y + 887);
+
+   iLine(bird_x + 195, bird_y + 887, bird_x + 185, bird_y + 885);
+
+   iLine(bird_x + 185, bird_y + 885, bird_x + 160, bird_y + 873);
+
+   iLine(bird_x + 160, bird_y + 873, bird_x + 140, bird_y + 860);
+
+
+   iLine(bird_x + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 890);
+   iLine(bird_x + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 885);
+
+   iLine(bird_x + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 885);
+   iLine(bird_x + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 878);
+
+   iLine(bird_x + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 875);
+   iLine(bird_x + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 880);
+
+   iLine(bird_x + 35, bird_y + tail_y + 855, bird_x + 70, bird_y + 875);
+   iLine(bird_x + 35, bird_y + tail_y + 855, bird_x + 70, bird_y + 870);
+
+   iLine(bird_x + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 870);
+   iLine(bird_x + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 865);
+
+   iLine(bird_x + 70, bird_y + 865, bird_x + 85, bird_y + 865);
+   iLine(bird_x + 70, bird_y + 890, bird_x + 85, bird_y + 890);
+
+
+   iLine(bird_x + 85, bird_y + 865, bird_x + 110, bird_y + 860);
+   //
+
+   iLine(bird_x + 85, bird_y + 890, bird_x + 110, bird_y + 895);
+
+   iLine(bird_x + 110, bird_y + 895, bird_x + 130, bird_y + 905);
+
+
+   //int x = 0;
+   if (bird_x % 200 > 100)
+   {
+    
+    iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 860);
+    iLine(bird_x + 130, bird_y + 860, bird_x + 110, bird_y + 860);
+
+
+    iLine(bird_x + 165, bird_y + 910, bird_x + 160, bird_y + 930);
+    iLine(bird_x + 130, bird_y + 900, bird_x + 130, bird_y + 920);
+
+    iLine(bird_x + 150, bird_y + 950, bird_x + 160, bird_y + 930);
+    iLine(bird_x + 120, bird_y + 940, bird_x + 130, bird_y + 920);
+
+    iLine(bird_x + 150, bird_y + 950, bird_x + 130, bird_y + 960);
+    iLine(bird_x + 120, bird_y + 940, bird_x + 110, bird_y + 950);
+
+    iLine(bird_x + 90, bird_y + 960, bird_x + 130, bird_y + 960);
+    iLine(bird_x + 90, bird_y + 960, bird_x + 110, bird_y + 950);
+
+
+    iLine(bird_x + 90, bird_y + 950, bird_x + 100, bird_y + 940);
+    iLine(bird_x + 100, bird_y + 948, bird_x + 120, bird_y + 940);
+    iLine(bird_x + 100, bird_y + 948, bird_x + 90, bird_y + 950);
+
+    iLine(bird_x + 100, bird_y + 940, bird_x + 110, bird_y + 920);
+    iLine(bird_x + 110, bird_y + 920, bird_x + 110, bird_y + 895);
+
+    
+   }
+   else
+   {
+    
+    iLine(bird_x + 165, bird_y + 915, bird_x + 130, bird_y + 905);
+
+    iLine(bird_x + 165, bird_y + 905, bird_x + 155, bird_y + 880);
+    iLine(bird_x + 130, bird_y + 895, bird_x + 125, bird_y + 880);
+
+    iLine(bird_x + 155, bird_y + 880, bird_x + 140, bird_y + 860);
+    iLine(bird_x + 125, bird_y + 880, bird_x + 115, bird_y + 865);
+
+    iLine(bird_x + 140, bird_y + 860, bird_x + 100, bird_y + 855);
+    iLine(bird_x + 115, bird_y + 865, bird_x + 100, bird_y + 855);
+   }
+
+
+   iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 850);
+   iLine(bird_x + 130, bird_y + 850, bird_x + 140, bird_y + 840);
+   iLine(bird_x + 135, bird_y + 845, bird_x + 130, bird_y + 840);
+
+   iLine(bird_x + 130, bird_y + 860, bird_x + 120, bird_y + 850);
+   iLine(bird_x + 120, bird_y + 850, bird_x + 130, bird_y + 840);
+   iLine(bird_x + 125, bird_y + 845, bird_x + 120, bird_y + 840);
+
+
+
+   iSetColor(255, 255, 0);
+   iFilledEllipse(bird_x + 202, bird_y + 900, 3, 3);
+  }
+  else if (special_bird == devil)
+  {
+   iSetColor(255, 255, 255);
+   iCircle(105, 600, 70);
+   iCircle(105, 600, 67);
+   iSetColor(255, 0, 0);
+   iText(55, 589, "Devil Bird", GLUT_BITMAP_TIMES_ROMAN_24);
+   
+
+
+   iSetColor(255, 0, 0);
+   
+   iLine(bird_x + 205, bird_y + 885, bird_x + 215, bird_y + 882);
+
+   iLine(bird_x + 210, bird_y + 895, bird_x + 215, bird_y + 882);
+iLine(bird_x + 210, bird_y + 895, bird_x + 213, bird_y + 905);
+
+   iLine(bird_x + 213, bird_y + 905, bird_x + 210, bird_y + 915);
+
+   iLine(bird_x + 210, bird_y + 915, bird_x + 200, bird_y + 922);
+
+   iLine(bird_x + 200, bird_y + 922, bird_x + 185, bird_y + 924);
+
+   iLine(bird_x + 185, bird_y + 924, bird_x + 165, bird_y + 915);
+
+   iLine(bird_x + 205, bird_y + 885, bird_x + 195, bird_y + 887);
+
+   iLine(bird_x + 195, bird_y + 887, bird_x + 185, bird_y + 885);
+
+   iLine(bird_x + 185, bird_y + 885, bird_x + 160, bird_y + 873);
+
+   iLine(bird_x + 160, bird_y + 873, bird_x + 140, bird_y + 860);
+
+
+   iLine(bird_x + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 890);
+   iLine(bird_x + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 885);
+
+   iLine(bird_x + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 885);
+   iLine(bird_x + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 878);
+
+   iLine(bird_x + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 875);
+   iLine(bird_x + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 880);
+
+   iLine(bird_x + 35, bird_y + tail_y + 855, bird_x + 70, bird_y + 875);
+   iLine(bird_x + 35, bird_y + tail_y + 855, bird_x + 70, bird_y + 870);
+
+   iLine(bird_x + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 870);
+   iLine(bird_x + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 865);
+
+   iLine(bird_x + 70, bird_y + 865, bird_x + 85, bird_y + 865);
+   iLine(bird_x + 70, bird_y + 890, bird_x + 85, bird_y + 890);
+
+
+   iLine(bird_x + 85, bird_y + 865, bird_x + 110, bird_y + 860);
+   //
+
+   iLine(bird_x + 85, bird_y + 890, bird_x + 110, bird_y + 895);
+
+   iLine(bird_x + 110, bird_y + 895, bird_x + 130, bird_y + 905);
+
+
+   //int x = 0;
+   if (bird_x % 200 > 100)
+   {
+    
+    iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 860);
+    iLine(bird_x + 130, bird_y + 860, bird_x + 110, bird_y + 860);
+
+
+    iLine(bird_x + 165, bird_y + 910, bird_x + 160, bird_y + 930);
+    iLine(bird_x + 130, bird_y + 900, bird_x + 130, bird_y + 920);
+
+    iLine(bird_x + 150, bird_y + 950, bird_x + 160, bird_y + 930);
+    iLine(bird_x + 120, bird_y + 940, bird_x + 130, bird_y + 920);
+
+    iLine(bird_x + 150, bird_y + 950, bird_x + 130, bird_y + 960);
+    iLine(bird_x + 120, bird_y + 940, bird_x + 110, bird_y + 950);
+
+    iLine(bird_x + 90, bird_y + 960, bird_x + 130, bird_y + 960);
+    iLine(bird_x + 90, bird_y + 960, bird_x + 110, bird_y + 950);
+
+
+    iLine(bird_x + 90, bird_y + 950, bird_x + 100, bird_y + 940);
+    iLine(bird_x + 100, bird_y + 948, bird_x + 120, bird_y + 940);
+    iLine(bird_x + 100, bird_y + 948, bird_x + 90, bird_y + 950);
+
+    iLine(bird_x + 100, bird_y + 940, bird_x + 110, bird_y + 920);
+    iLine(bird_x + 110, bird_y + 920, bird_x + 110, bird_y + 895);
+
+    //iLine(bird_x + 100, bird_y + 948, bird_x + 90, bird_y + 950);
+   }
+   else
+   {
+    
+    iLine(bird_x + 165, bird_y + 915, bird_x + 130, bird_y + 905);
+
+    iLine(bird_x + 165, bird_y + 905, bird_x + 155, bird_y + 880);
+    iLine(bird_x + 130, bird_y + 895, bird_x + 125, bird_y + 880);
+
+    iLine(bird_x + 155, bird_y + 880, bird_x + 140, bird_y + 860);
+    iLine(bird_x + 125, bird_y + 880, bird_x + 115, bird_y + 865);
+
+    iLine(bird_x + 140, bird_y + 860, bird_x + 100, bird_y + 855);
+    iLine(bird_x + 115, bird_y + 865, bird_x + 100, bird_y + 855);
+   }
+
+   iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 850);
+   iLine(bird_x + 130, bird_y + 850, bird_x + 140, bird_y + 840);
+   iLine(bird_x + 135, bird_y + 845, bird_x + 130, bird_y + 840);
+
+   iLine(bird_x + 130, bird_y + 860, bird_x + 120, bird_y + 850);
+   iLine(bird_x + 120, bird_y + 850, bird_x + 130, bird_y + 840);
+   iLine(bird_x + 125, bird_y + 845, bird_x + 120, bird_y + 840);
+
+
+   iSetColor(255, 0, 0);
+   iFilledEllipse(bird_x + 202, bird_y + 900, 3, 3);
+  }
+  
+  else
+  {
+
+   iSetColor(10, 160, 255);
+   
+
+   iLine(bird_x + 205, bird_y + 885, bird_x + 215, bird_y + 882);
+
+   iLine(bird_x + 210, bird_y + 895, bird_x + 215, bird_y + 882);
+
+   iLine(bird_x + 210, bird_y + 895, bird_x + 213, bird_y + 905);
+iLine(bird_x + 213, bird_y + 905, bird_x + 210, bird_y + 915);
+
+   iLine(bird_x + 210, bird_y + 915, bird_x + 200, bird_y + 922);
+
+   iLine(bird_x + 200, bird_y + 922, bird_x + 185, bird_y + 924);
+
+   iLine(bird_x + 185, bird_y + 924, bird_x + 165, bird_y + 915);
+
+   iLine(bird_x + 205, bird_y + 885, bird_x + 195, bird_y + 887);
+
+   iLine(bird_x + 195, bird_y + 887, bird_x + 185, bird_y + 885);
+
+   iLine(bird_x + 185, bird_y + 885, bird_x + 160, bird_y + 873);
+
+   iLine(bird_x + 160, bird_y + 873, bird_x + 140, bird_y + 860);
+
+   
+
+   iLine(bird_x  + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 890);
+   iLine(bird_x  + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 885);
+
+   iLine(bird_x  + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 885);
+   iLine(bird_x  + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 878);
+
+   iLine(bird_x  + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 875);
+   iLine(bird_x + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 880);
+
+   iLine(bird_x + 35, bird_y + tail_y + 855, bird_x + 70, bird_y + 875);
+   iLine(bird_x +  35, bird_y + tail_y + 855, bird_x + 70, bird_y + 870);
+
+   iLine(bird_x  + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 870);
+   iLine(bird_x  + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 865);
+
+   iLine(bird_x + 70, bird_y + 865, bird_x + 85, bird_y + 865);
+   iLine(bird_x + 70, bird_y + 890, bird_x + 85, bird_y + 890);
+
+
+   iLine(bird_x + 85, bird_y + 865, bird_x + 110, bird_y + 860);
+   
+
+   iLine(bird_x + 85, bird_y + 890, bird_x + 110, bird_y + 895);
+
+   iLine(bird_x + 110, bird_y + 895, bird_x + 130, bird_y + 905);
+
+
+   
+   if (bird_x % 200 > 100)
+   {
+
+    
+    iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 860);
+    iLine(bird_x + 130, bird_y + 860, bird_x + 110, bird_y + 860);
+
+
+    iLine(bird_x + 165, bird_y + 910, bird_x + 160, bird_y + 930);
+    iLine(bird_x + 130, bird_y + 900, bird_x + 130, bird_y + 920);
+
+    iLine(bird_x + 150, bird_y + 950, bird_x + 160, bird_y + 930);
+    iLine(bird_x + 120, bird_y + 940, bird_x + 130, bird_y + 920);
+
+    iLine(bird_x + 150, bird_y + 950, bird_x + 130, bird_y + 960);
+    iLine(bird_x + 120, bird_y + 940, bird_x + 110, bird_y + 950);
+
+    iLine(bird_x + 90, bird_y + 960, bird_x + 130, bird_y + 960);
+    iLine(bird_x + 90, bird_y + 960, bird_x + 110, bird_y + 950);
+
+
+    iLine(bird_x + 90, bird_y + 950, bird_x + 100, bird_y + 940);
+    iLine(bird_x + 100, bird_y + 948, bird_x + 120, bird_y + 940);
+    iLine(bird_x + 100, bird_y + 948, bird_x + 90, bird_y + 950);
+
+    iLine(bird_x + 100, bird_y + 940, bird_x + 110, bird_y + 920);
+    iLine(bird_x + 110, bird_y + 920, bird_x + 110, bird_y + 895);
+
+    //iLine(bird_x + 100, bird_y + 948, bird_x + 90, bird_y + 950);
+   }
+   else
+   {
+    
+    iLine(bird_x + 165, bird_y + 915, bird_x + 130, bird_y + 905);
+
+    iLine(bird_x + 165, bird_y + 905, bird_x + 155, bird_y + 880);
+    iLine(bird_x + 130, bird_y + 895, bird_x + 125, bird_y + 880);
+
+    iLine(bird_x + 155, bird_y + 880, bird_x + 140, bird_y + 860);
+    iLine(bird_x + 125, bird_y + 880, bird_x + 115, bird_y + 865);
+
+    iLine(bird_x + 140, bird_y + 860, bird_x + 100, bird_y + 855);
+    iLine(bird_x + 115, bird_y + 865, bird_x + 100, bird_y + 855);
+   }
+
+
+   iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 850);
+   iLine(bird_x + 130, bird_y + 850, bird_x + 140, bird_y + 840);
+   iLine(bird_x + 135, bird_y + 845, bird_x + 130, bird_y + 840);
+
+   iLine(bird_x + 130, bird_y + 860, bird_x + 120, bird_y + 850);
+   iLine(bird_x + 120, bird_y + 850, bird_x + 130, bird_y + 840);
+   iLine(bird_x + 125, bird_y + 845, bird_x + 120, bird_y + 840);
+
+   iSetColor(0, 0, 255);
+   iFilledEllipse(bird_x + 202, bird_y + 900, 3, 3);
+  }
+
+
+  iSetColor(255, 0, 0);
+  int y1 = 80;
+  int y2 = 120;
+  for (int i = 0; i < num_arrow; i++)
+  {
+   iLine(1170, y1, 1420, y2);
+   iLine(1405, y2 + 5, 1420, y2);
+   iLine(1410, y2 - 10, 1420, y2);
+   y1 += 20;
+   y2 += 20;
+  }
+  /**iLine(70, 60, 220, 80);
+  iLine(200, 85, 220, 80);
+  iLine(205, 70, 220, 80);
+iLine(70, 80, 220, 100);
+  iLine(200, 105, 220, 100);
+  iLine(205, 90, 220, 100);
+
+  iLine(70, 100, 220, 120);
+  iLine(200, 125, 220, 120);
+  iLine(205, 110, 220, 120);
+
+  iLine(70, 120, 220, 140);
+  iLine(200, 145, 220, 140);
+  iLine(205, 130, 220, 140);**/
+
+
+
+  iSetColor(0, 0, 255);
+  if (bow_dir == 1)
+  {
+
+   //bow string
+
+   iSetColor(255, 255, 255);
+   //iLine(bow_x + 1500, bow_y + 120, bow_x + 1800, bow_y + 120);
+   iLine(bow_x + 1500, bow_y + 120, bow_x + string_x + 1650, bow_y + string_y + 120);
+   iLine(bow_x + string_x + 1650, bow_y + string_y + 120, bow_x + 1800, bow_y + 120);
+
+
+   iSetColor(0, 0, 255);
+   iLine(bow_x + 1500, bow_y + 120, bow_x + 1550, bow_y + 180);
+   iLine(bow_x + 1550, bow_y + 180, bow_x + 1600, bow_y + 190);
+   iLine(bow_x + 1600, bow_y + 190, bow_x + 1650, bow_y + 160);
+   iLine(bow_x + 1650, bow_y + 160, bow_x + 1700, bow_y + 190);
+   iLine(bow_x + 1700, bow_y + 190, bow_x + 1750, bow_y + 180);
+   iLine(bow_x + 1750, bow_y + 180, bow_x + 1800, bow_y + 120);
+
+
+   iLine(bow_x + 1502, bow_y + 120, bow_x + 1552, bow_y + 180);
+   iLine(bow_x + 1550, bow_y + 178, bow_x + 1600, bow_y + 188);
+   iLine(bow_x + 1600, bow_y + 188, bow_x + 1650, bow_y + 158);
+   iLine(bow_x + 1650, bow_y + 158, bow_x + 1700, bow_y + 188);
+   iLine(bow_x + 1700, bow_y + 188, bow_x + 1750, bow_y + 178);
+   iLine(bow_x + 1748, bow_y + 180, bow_x + 1798, bow_y + 120);
+
+   
+   
+   /**
+   iFilledCircle(bow_x + 1553, 174, 5);
+   iFilledCircle(bow_x + 1650, 165, 5);
+   iFilledCircle(bow_x + 1600, 183, 5);
+   iFilledCircle(bow_x + 1748, 175, 5);
+   iFilledCircle(bow_x + 1702, 183, 5);
+   **/
+
+   //bow extension
+   iLine(bow_x + 1800, 120, bow_x + 1810, 120);
+   iLine(bow_x + 1797, 122, bow_x + 1808, 122);
+
+   iLine(bow_x + 1810, 120, bow_x + 1815, 130);
+   iLine(bow_x + 1808, 122, bow_x + 1813, 130);
+
+   iLine(bow_x + 1813, 130, bow_x + 1815, 130);
+
+
+   iLine(bow_x + 1500, 120, bow_x + 1490, 120);
+   iLine(bow_x + 1503, 122, bow_x + 1492, 122);
+
+   iLine(bow_x + 1490, 120, bow_x + 1485, 130);
+   iLine(bow_x + 1492, 122, bow_x + 1487, 130);
+
+   iLine(bow_x + 1487, 130, bow_x + 1485, 130);
+
+
+   iSetColor(255, 255, 0);
+   iFilledCircle(bow_x + 1502, 122, 3);
+   iFilledCircle(bow_x + 1798, 122, 3);
+   
+  }
+  else if (bow_dir == 0)
+  {
+   //bow string
+   iSetColor(255, 255, 255);
+   //iLine(bow_x + 1525, bow_y + 258, bow_x + 1800, bow_y + 120);
+   iLine(bow_x + 1525, bow_y + 258, bow_x + string_x + 1662, bow_y + string_y + 189);
+   iLine(bow_x + string_x + 1662, bow_y + string_y + 189, bow_x + 1800, bow_y + 120);
+
+
+   iSetColor(0, 0, 255);
+   iLine(bow_x + 1800, bow_y + 120, bow_x + 1785, bow_y + 195);
+   iLine(bow_x + 1785, bow_y + 195, bow_x + 1735, bow_y + 235);
+   iLine(bow_x + 1735, bow_y + 235, bow_x + 1680, bow_y + 225);
+   iLine(bow_x + 1680, bow_y + 225, bow_x + 1650, bow_y + 275);
+   iLine(bow_x + 1650, bow_y + 275, bow_x + 1590, bow_y + 290);
+   iLine(bow_x + 1590, bow_y + 290, bow_x + 1525, bow_y + 258);
+
+   iLine(bow_x + 1798, bow_y + 120, bow_x + 1783, bow_y + 195);
+   iLine(bow_x + 1785, bow_y + 193, bow_x + 1735, bow_y + 233);
+   iLine(bow_x + 1735, bow_y + 233, bow_x + 1680, bow_y + 223);
+   iLine(bow_x + 1679, bow_y + 223, bow_x + 1649, bow_y + 273);
+   iLine(bow_x + 1650, bow_y + 273, bow_x + 1590, bow_y + 288);
+   iLine(bow_x + 1590, bow_y + 288, bow_x + 1526, bow_y + 256);
+
+   /**
+   
+   iFilledCircle(bow_x + 1550, 175, 5);
+   iFilledCircle(bow_x + 1650, 165, 5);
+   iFilledCircle(bow_x + 1600, 185, 5);
+   iFilledCircle(bow_x + 1745, 175, 5);
+   iFilledCircle(bow_x + 1700, 185, 5);
+   **/
+
+   //bow extension
+   iLine(bow_x + 1800, 120, bow_x + 1810, 115);
+   iLine(bow_x + 1800, 123, bow_x + 1810, 118);
+
+   iLine(bow_x + 1810, 115, bow_x + 1822, 122);
+   iLine(bow_x + 1810, 118, bow_x + 1822, 124);
+
+   iLine(bow_x + 1822, 122, bow_x + 1822, 124);
+
+
+   iLine(bow_x + 1525, 256, bow_x + 1512, 264);
+   iLine(bow_x + 1525, 259, bow_x + 1515, 265);
+
+   iLine(bow_x + 1512, 264, bow_x + 1514, 278);
+   iLine(bow_x + 1515, 265, bow_x + 1514, 278);
+
+   iLine(bow_x + 1513, 278, bow_x + 1514, 278);
 
