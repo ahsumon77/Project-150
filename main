@@ -156,3 +156,219 @@ void iDraw()
   iLine(bird_x + 205, bird_y + 885, bird_x + 215, bird_y + 882);
 
   iLine(bird_x + 210, bird_y + 895, bird_x + 215, bird_y + 882);
+
+iLine(bird_x + 210, bird_y + 895, bird_x + 213, bird_y + 905);
+
+  iLine(bird_x + 213, bird_y + 905, bird_x + 210, bird_y + 915);
+
+  iLine(bird_x + 210, bird_y + 915, bird_x + 200, bird_y + 922);
+
+  iLine(bird_x + 200, bird_y + 922, bird_x + 185, bird_y + 924);
+
+  iLine(bird_x + 185, bird_y + 924, bird_x + 165, bird_y + 915);
+
+  iLine(bird_x + 205, bird_y + 885, bird_x + 195, bird_y + 887);
+
+  iLine(bird_x + 195, bird_y + 887, bird_x + 185, bird_y + 885);
+
+  iLine(bird_x + 185, bird_y + 885, bird_x + 160, bird_y + 873);
+
+  iLine(bird_x + 160, bird_y + 873, bird_x + 140, bird_y + 860);
+
+  iLine(bird_x + 70, bird_y + 865, bird_x + 85, bird_y + 865);
+  iLine(bird_x + 70, bird_y + 890, bird_x + 85, bird_y + 890);
+  
+  //
+
+  //iLine(bird_x + 205, bird_y + 850, bird_x + 215, bird_y + 847);
+
+  //iLine(bird_x + 30, bird_y + 890, bird_x + 70, bird_y + 895);
+  //iLine(bird_x + 30, bird_y + 890, bird_x + 70, bird_y + 890);
+
+  iLine(bird_x + tail_y + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 890);
+  iLine(bird_x + tail_y + 28, bird_y + tail_y + 880, bird_x + 70, bird_y + 885);
+
+  iLine(bird_x + tail_y + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 885);
+  iLine(bird_x + tail_y + 31, bird_y + tail_y + 870, bird_x + 70, bird_y + 878);
+
+  iLine(bird_x + tail_y + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 875);
+  iLine(bird_x + tail_y + 33, bird_y + tail_y + 860, bird_x + 70, bird_y + 880);
+
+  iLine(bird_x + tail_y + 35, bird_y + tail_y + 855, bird_x + 70, bird_y + 875);
+  iLine(bird_x + tail_y + 35, bird_y + tail_y + 855, bird_x + 70, bird_y + 870);
+
+  iLine(bird_x + tail_y + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 870);
+  iLine(bird_x + tail_y + 40, bird_y + tail_y + 850, bird_x + 70, bird_y + 865);
+  
+  
+
+
+  iLine(bird_x + 85, bird_y + 865, bird_x + 110, bird_y + 860);
+  //
+
+  iLine(bird_x + 85, bird_y + 890, bird_x + 110, bird_y + 895);
+
+  iLine(bird_x + 110, bird_y + 895, bird_x + 130, bird_y + 905);
+
+
+  int x = 1;
+  if (x)
+  {
+   iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 860);
+   iLine(bird_x + 130, bird_y + 860, bird_x + 110, bird_y + 860);
+
+
+   iLine(bird_x + 165, bird_y + 910, bird_x + 160, bird_y + 930);
+   iLine(bird_x + 130, bird_y + 900, bird_x + 130, bird_y + 920);
+
+   iLine(bird_x + 150, bird_y + 950, bird_x + 160, bird_y + 930);
+   iLine(bird_x + 120, bird_y + 940, bird_x + 130, bird_y + 920);
+
+   iLine(bird_x + 150, bird_y + 950, bird_x + 130, bird_y + 960);
+   iLine(bird_x + 120, bird_y + 940, bird_x + 110, bird_y + 950);
+
+   iLine(bird_x + 90, bird_y + 960, bird_x + 130, bird_y + 960);
+   iLine(bird_x + 90, bird_y + 960, bird_x + 110, bird_y + 950);
+
+
+   iLine(bird_x + 90, bird_y + 950, bird_x + 100, bird_y + 940);
+   iLine(bird_x + 100, bird_y + 948, bird_x + 120, bird_y + 940);
+   iLine(bird_x + 100, bird_y + 948, bird_x + 90, bird_y + 950);
+
+   iLine(bird_x + 100, bird_y + 940, bird_x + 110, bird_y + 920);
+   iLine(bird_x + 110, bird_y + 920, bird_x + 110, bird_y + 895);
+   
+   //iLine(bird_x + 100, bird_y + 948, bird_x + 90, bird_y + 950);
+  }
+  else
+  {
+   iLine(bird_x + 165, bird_y + 915, bird_x + 130, bird_y + 905);
+
+   iLine(bird_x + 165, bird_y + 905, bird_x + 155, bird_y + 880);
+   iLine(bird_x + 130, bird_y + 895, bird_x + 125, bird_y + 880);
+
+   iLine(bird_x + 155, bird_y + 880, bird_x + 140, bird_y + 860);
+   iLine(bird_x + 125, bird_y + 880, bird_x + 115, bird_y + 865);
+
+   iLine(bird_x + 140, bird_y + 860, bird_x + 100, bird_y + 855);
+   iLine(bird_x + 115, bird_y + 865, bird_x + 100, bird_y + 855);
+  }
+
+
+  iSetColor(0, 0, 0);
+  iLine(bird_x + 140, bird_y + 860, bird_x + 130, bird_y + 850);
+  iLine(bird_x + 130, bird_y + 850, bird_x + 140, bird_y + 840);
+  iLine(bird_x + 135, bird_y + 845, bird_x + 130, bird_y + 840);
+
+  iLine(bird_x + 130, bird_y + 860, bird_x + 120, bird_y + 850);
+  iLine(bird_x + 120, bird_y + 850, bird_x + 130, bird_y + 840);
+  iLine(bird_x + 125, bird_y + 845, bird_x + 120, bird_y + 840);
+
+
+  
+  iSetColor(0, 255,0);
+  iFilledEllipse(bird_x + 202, bird_y + 900, 3, 3);
+
+
+
+
+  
+  
+  iSetColor(20, 20, 255);
+iLine(arrow_x + 1650, arrow_y + string_y + 820, arrow_x + 1650, arrow_y + 1000);
+  iLine(arrow_x + 1650, arrow_y + string_y + 820, arrow_x + 1651, arrow_y + 1000);
+  iLine(arrow_x + 1643, arrow_y + 993, arrow_x + 1650, arrow_y + 1000);
+  iLine(arrow_x + 1657, arrow_y + 993, arrow_x + 1650, arrow_y + 1000);
+
+  iLine(arrow_x + string_x + 2062, arrow_y + string_y + 189, arrow_x + 2140, arrow_y + 350);
+  iLine(arrow_x + 2132, arrow_y + 346, arrow_x + 2140, arrow_y + 350);
+  iLine(arrow_x + 2144, arrow_y + 342, arrow_x + 2140, arrow_y + 350);
+
+  iLine(arrow_x + string_x + 2262, arrow_y + string_y + 789, arrow_x + 2340, arrow_y + 950);
+  iLine(arrow_x + 2332, arrow_y + 946, arrow_x + 2340, arrow_y + 950);
+  iLine(arrow_x + 2344, arrow_y + 942, arrow_x + 2340, arrow_y + 950);
+
+  iLine(arrow_x + string_x + 1137, arrow_y + string_y + 689, arrow_x + 1060, arrow_y + 850);
+  iLine(arrow_x + 1056, arrow_y + 840, arrow_x + 1060, arrow_y + 850);
+  iLine(arrow_x + 1072, arrow_y + 845, arrow_x + 1060, arrow_y + 850);
+   
+
+  
+ }
+
+ else if (instruction == true)
+ {
+  iSetColor(0, 0, 0);
+  iFilledRectangle(0, 0, 1910, 1050);
+  iSetColor(0, 255, 0);
+  iText(800, 900, "BIRD HUNTING", GLUT_BITMAP_TIMES_ROMAN_24);
+  iSetColor(0, 255, 0);
+  iText(100, 800, "GAME INFO and CONTROL: The game is developed using only C++ programming language and the title of the game is \"Bird Hunting\". In this game you can control", GLUT_BITMAP_TIMES_ROMAN_24);
+  iText(100, 750, "your bow by right and left key and keep it in threee different direction. You get a primary arrow attached with bow and 5 more arrow beside the bow. You can adjust ", GLUT_BITMAP_TIMES_ROMAN_24);
+  iText(100, 700, "your bow string according to your need of speed. To do this you have to use up and down key before release your arrow. You will release your arrow by using \"R\" key. ", GLUT_BITMAP_TIMES_ROMAN_24);
+  iText(100, 600, "REWARDS and OPPORTUNITIES : You will be given specific number of birds locating after \"birds remaining\" term initially.  If you will able to hunt it or it will disappeare", GLUT_BITMAP_TIMES_ROMAN_24);
+  iText(100, 550, "then it meaans 1 bird has gone. By hunting one general bird (Blue) you will get 1 points. By hunting a special gold bird (Golden) you will get  extra 5 points. If you hunt ", GLUT_BITMAP_TIMES_ROMAN_24);
+  iText(100, 500, "a devil bird (Red) you will lost an arrow with no benefit. If you can make a headshot you will get extra 5 points. Remember that, even headshot is not applicable to Devil", GLUT_BITMAP_TIMES_ROMAN_24);
+  iText(100, 450, "bird. The game will over when you will have no arrow left or no bird remaining.", GLUT_BITMAP_TIMES_ROMAN_24);
+  iText(100, 400, "", GLUT_BITMAP_TIMES_ROMAN_24);
+  
+  iSetColor(255, 255, 255);
+  iFilledRectangle(1690, 70, 200, 80);
+  iSetColor(0, 0, 0);
+  iText(1750, 100, "BACK", GLUT_BITMAP_TIMES_ROMAN_24);
+ }
+
+ else if (dev == true)
+ {
+  iSetColor(0, 0, 0);
+  iFilledRectangle(0, 0, 1910, 1050);
+  iSetColor(255, 0, 255);
+  iText(900, 600, "Shakil Hiat", GLUT_BITMAP_TIMES_ROMAN_24);
+  iSetColor(255, 255, 255);
+  iFilledRectangle(1690, 70, 200, 80);
+  iSetColor(0,0, 0);
+  iText(1750, 100, "BACK", GLUT_BITMAP_TIMES_ROMAN_24);
+ }
+
+ else if (start == true)
+ {
+
+
+  iSetColor(0, 50, 50);
+  iFilledRectangle(0, 0, 1910, 1050);
+
+
+  iSetColor(0, 50, 50);
+  iFilledRectangle(40, 70, 200, 80);
+  iSetColor(255, 255, 0);
+  iText(100, 100, "PAUSE", GLUT_BITMAP_TIMES_ROMAN_24);
+
+  iSetColor(0, 50, 50);
+  iFilledRectangle(1690, 70, 200, 80);
+  iSetColor(255, 255, 0);
+  iText(1750, 100, "QUIT", GLUT_BITMAP_TIMES_ROMAN_24);
+
+
+  if (bird_x == 0)
+  {
+   special_bird = rand() % 6;
+  }
+  if (special_bird == gold)
+  {
+
+   iSetColor(255, 255, 255);
+   iCircle(105, 600, 70);
+   iCircle(105, 600, 67);
+   iSetColor(255, 255, 0);
+   iText(55, 589, "Gold Bird", GLUT_BITMAP_TIMES_ROMAN_24);
+
+
+   iSetColor(255, 255, 0);
+
+   iLine(bird_x + 205, bird_y + 885, bird_x + 215, bird_y + 882);
+
+   iLine(bird_x + 210, bird_y + 895, bird_x + 215, bird_y + 882);
+
+   iLine(bird_x + 210, bird_y + 895, bird_x + 213, bird_y + 905);
+
+
